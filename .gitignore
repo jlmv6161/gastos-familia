@@ -1,0 +1,23 @@
+# === NUNCA subir: datos en claro ni credenciales ===
+# Lo unico publicable es index.html, que lleva el dashboard CIFRADO.
+credenciales*
+*credencial*
+*password*
+*token*
+*secret*
+*.env
+*.key
+*.pem
+
+# Datos sin cifrar (si alguna vez se copian aqui por error)
+data.js
+*.csv
+*.xlsx
+dashboard.html
+
+# Temporales
+~$*
+Thumbs.db
+desktop.ini
+*.tmp
+_*.html
